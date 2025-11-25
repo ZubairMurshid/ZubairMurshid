@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zubair Murshid | Computer Science Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Exo+2:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="sun-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+        <svg class="moon-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+    </div>
+
+    <div class="hero-section" id="hero">
+        <div class="tech-background">
+            <canvas id="techCanvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">Computer Science Undergraduate</div>
+            <h1 class="hero-title">
+                <span class="name-line">ZUBAIR</span>
+                <span class="name-line gradient-text">MURSHID</span>
+            </h1>
+            <p class="hero-subtitle">Building Secure Digital Solutions | Cybersecurity Enthusiast | Full-Stack Developer</p>
+            <div class="hero-cta">
+                <a href="#contact" class="cta-button primary">Get In Touch</a>
+                <a href="#projects" class="cta-button secondary">View Projects</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </div>
+
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Introduction</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="lead-text">Passionate Computer Science undergraduate with strong skills in programming, databases, and system design, currently expanding expertise in cybersecurity.</p>
+                    <p>I excel at working in collaborative environments and delivering solutions in team settings. My academic journey at the Informatics Institute of Technology has equipped me with a solid foundation in software development, web technologies, and security principles.</p>
+                    <p>Currently seeking an industry placement to apply technical abilities, contribute to real-world projects, and further develop experience in both software development and cybersecurity domains.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🎓</div>
+                            <div class="highlight-text">
+                                <h4>Academic Excellence</h4>
+                                <p>Strong foundation in CS fundamentals</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">🔒</div>
+                            <div class="highlight-text">
+                                <h4>Security Focus</h4>
+                                <p>Expanding cybersecurity expertise</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-icon">👥</div>
+                            <div class="highlight-text">
+                                <h4>Team Player</h4>
+                                <p>Collaborative problem solver</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Capabilities</span>
+                <h2 class="section-title">Skills & Expertise</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Programming Languages</h3>
+                    <div class="skill-list">
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">HTML & CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="75">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Technical Skills</h3>
+                    <div class="skill-list">
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">Software Development & OOP</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <span class="skill-name">Web Design & UI/UX</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="80">
+                            <span class="skill-name">Database Design & SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="75">
+                            <span class="skill-name">Cybersecurity Fundamentals</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="85">
+                            <span class="skill-name">Algorithms & Problem-Solving</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-level="70">
+                            <span class="skill-name">Client-Server Architectures</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Team Leadership</span>
+                        <span class="skill-tag">Collaboration</span>
+                        <span class="skill-tag">Technical Communication</span>
+                        <span class="skill-tag">Time Management</span>
+                        <span class="skill-tag">Detail-Oriented</span>
+                        <span class="skill-tag">Creative Thinking</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="category-title">Tools & Software</h3>
+                    <div class="tool-grid">
+                        <div class="tool-item">IntelliJ</div>
+                        <div class="tool-item">VS Code</div>
+                        <div class="tool-item">GitHub</div>
+                        <div class="tool-item">Figma</div>
+                        <div class="tool-item">XAMPP</div>
+                        <div class="tool-item">Notion</div>
+                        <div class="tool-item">ClickUp</div>
+                        <div class="tool-item">WordPress</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-label">Technical Skills</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="5">0</div>
+                    <div class="stat-label">Programming Languages</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="3">0</div>
+                    <div class="stat-label">Major Projects</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="82">0</div>
+                    <div class="stat-label">Average Grade</div>
+                </div>
+            </div>
+
+            <div class="radar-chart-container">
+                <canvas id="skillRadar"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ai">AI</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="python">Python</button>
+                <button class="filter-btn" data-filter="oop">OOP</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card" data-category="ai web">
+                    <div class="project-header">
+                        <div class="project-icon">🤖</div>
+                        <span class="project-status">In Development</span>
+                    </div>
+                    <h3 class="project-title">EventLK - AI-Powered Event Management Platform</h3>
+                    <p class="project-description">Comprehensive intelligent event management system designed specifically for university clubs and societies, featuring AI-driven recommendations and automated workflows.</p>
+
+                    <div class="project-details">
+                        <div class="detail-section">
+                            <h4>Overview</h4>
+                            <p>Led the end-to-end development of a platform that integrates AI-driven recommendations for venue selection, theme planning, and budget optimization, streamlining the entire event lifecycle.</p>
+                        </div>
+
+                        <div class="detail-section">
+                            <h4>Key Features</h4>
+                            <ul>
+                                <li>AI-powered venue and theme recommendations</li>
+                                <li>Role-based dashboards for different user types</li>
+                                <li>QR-based attendance tracking system</li>
+                                <li>Real-time collaboration tools</li>
+                                <li>Predictive budget optimization models</li>
+                                <li>Automated workflow management</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h4>Impact & Results</h4>
+                            <ul>
+                                <li>Reduced event planning time by 40%</li>
+                                <li>Improved budget accuracy through AI predictions</li>
+                                <li>Streamlined collaboration between stakeholders</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h4>Technical Challenges</h4>
+                            <p>Integrating multiple AI models for different recommendation types while maintaining system performance and ensuring accurate predictions based on historical data patterns.</p>
+                        </div>
+
+                        <div class="detail-section">
+                            <h4>Technologies Used</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">AI/ML</span>
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">QR Integration</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-footer">
+                        <span class="project-role">Lead Developer</span>
+                        <span class="project-date">2025 - 2026</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="python oop">
+                    <div class="project-header">
+                        <div class="project-icon">📋</div>
+                        <span class="project-status completed">Completed</span>
+                    </div>
+                    <h3 class="project-title">Personal Task Manager</h3>
+                    <p class="project-description">Multi-stage task management application demonstrating advanced Python programming concepts and modern UI design principles.</p>
+
+                    <div class="project-details">
+                        <div class="detail-section">
+                            <h4>Overview</h4>
+                            <p>Developed a comprehensive task management solution with CRUD operations, file persistence, and an intuitive Tkinter-based GUI built on solid OOP principles.</p>
+                        </div>
+
+                        <div class="detail-section">
+                            <h4>Key Features</h4>
+                            <ul>
+                                <li>Complete CRUD operations for task management</li>
+                                <li>JSON-based data persistence</li>
+                                <li>Multi-stage task workflow system</li>
+                                <li>Intuitive Tkinter GUI interface</li>
+                                <li>Object-oriented architecture</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h4>Learning Outcomes</h4>
+                            <ul>
+                                <li>Strengthened Python programming skills</li>
+                                <li>Mastered data structures and file handling</li>
+                                <li>Enhanced UI/UX design capabilities</li>
+                                <li>Deepened OOP understanding</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h4>Technical Challenges</h4>
+                            <p>Implementing robust data persistence while maintaining application performance and ensuring data integrity across multiple user sessions.</p>
+                        </div>
+
+                        <div class="detail-section">
+                            <h4>Technologies Used</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Tkinter</span>
+                                <span class="tech-tag">JSON</span>
+                                <span class="tech-tag">OOP</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-footer">
+                        <span class="project-role">Solo Developer</span>
+                        <span class="project-date">Feb - Apr 2025</span>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-header">
+                        <div class="project-icon">🌐</div>
+                        <span class="project-status completed">Completed</span>
+                    </div>
+                    <h3 class="project-title">SDG Web Development Project</h3>
+                    <p class="project-description">Collaborative multi-page website focused on Sustainable Development Goals with interactive features and modern web standards.</p>
+
+                    <div class="project-details">
+                        <div class="detail-section">
+                            <h4>Overview</h4>
+                            <p>Collaborated with a team to develop a comprehensive SDG-themed website featuring multiple interactive pages and modern web development practices.</p>
+                        </div>
+
+                        <div class="detail-section">
+                            <h4>Key Features</h4>
+                            <ul>
+                                <li>Engaging splash screen with animations</li>
+                                <li>Interactive feedback forms with validation</li>
+                                <li>Dynamic data tables and user profiles</li>
+                                <li>Responsive design across all devices</li>
+                                <li>Accessibility-compliant implementation</li>
+                                <li>Form validation and user input handling</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h4>Team Collaboration</h4>
+                            <p>Worked in a collaborative environment, utilizing version control and following established workflows to deliver a cohesive final product.</p>
+                        </div>
+
+                        <div class="detail-section">
+                            <h4>Skills Developed</h4>
+                            <ul>
+                                <li>Advanced HTML5 and CSS3 techniques</li>
+                                <li>JavaScript for interactivity</li>
+                                <li>Responsive design patterns</li>
+                                <li>Web accessibility standards</li>
+                                <li>Collaborative development workflows</li>
+                            </ul>
+                        </div>
+
+                        <div class="detail-section">
+                            <h4>Technologies Used</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Responsive Design</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-footer">
+                        <span class="project-role">Team Member</span>
+                        <span class="project-date">June - July 2025</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience-section" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Journey</span>
+                <h2 class="section-title">Experience</h2>
+            </div>
+
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025</span>
+                        <h3 class="timeline-title">Industry Outreach Member</h3>
+                        <h4 class="timeline-company">iX 25</h4>
+                        <p class="timeline-description">Contributed to industry engagement and outreach activities, supporting collaboration between students and professionals. Helped facilitate networking opportunities and bridge the gap between academic learning and industry practice.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Networking</span>
+                            <span class="tag">Event Coordination</span>
+                            <span class="tag">Student Engagement</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025</span>
+                        <h3 class="timeline-title">Industry Outreach Member</h3>
+                        <h4 class="timeline-company">ModelX</h4>
+                        <p class="timeline-description">Supported outreach and engagement activities, helping strengthen connections between students and industry participants. Played a key role in organizing events and facilitating meaningful industry interactions.</p>
+                        <div class="timeline-tags">
+                            <span class="tag">Community Building</span>
+                            <span class="tag">Outreach</span>
+                            <span class="tag">Industry Relations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education-section" id="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Academic Journey</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+
+            <div class="education-timeline">
+                <div class="education-card active">
+                    <div class="education-icon">🎓</div>
+                    <div class="education-content">
+                        <span class="education-date">2025 - Present</span>
+                        <h3 class="education-degree">Bachelor of Science (BSc), Computer Science</h3>
+                        <h4 class="education-institution">Informatics Institute of Technology</h4>
+                        <p class="education-description">Strong academic foundation in programming, systems, mathematics, and web development, currently deepening expertise in cybersecurity, databases, and advanced software engineering.</p>
+
+                        <div class="modules-container">
+                            <div class="year-modules">
+                                <h4 class="year-title">Year 1 - Completed</h4>
+                                <div class="modules-grid">
+                                    <div class="module-item">
+                                        <span class="module-name">Software Development I</span>
+                                        <span class="module-grade">68</span>
+                                    </div>
+                                    <div class="module-item">
+                                        <span class="module-name">Mathematics for Computing</span>
+                                        <span class="module-grade">76</span>
+                                    </div>
+                                    <div class="module-item">
+                                        <span class="module-name">Trends in Computer Science</span>
+                                        <span class="module-grade">64</span>
+                                    </div>
+                                    <div class="module-item">
+                                        <span class="module-name">Computer Systems Fundamentals</span>
+                                        <span class="module-grade">82</span>
+                                    </div>
+                                    <div class="module-item">
+                                        <span class="module-name">Software Development II</span>
+                                        <span class="module-grade">82</span>
+                                    </div>
+                                    <div class="module-item">
+                                        <span class="module-name">Web Design and Development</span>
+                                        <span class="module-grade">75</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="year-modules">
+                                <h4 class="year-title">Year 2 - In Progress</h4>
+                                <div class="modules-list">
+                                    <div class="module-item-simple">Information Technology Security</div>
+                                    <div class="module-item-simple">Object Oriented Programming</div>
+                                    <div class="module-item-simple">Database Systems</div>
+                                    <div class="module-item-simple">Software Development Group Project</div>
+                                    <div class="module-item-simple">Client-Server Architectures</div>
+                                    <div class="module-item-simple">Algorithms: Theory, Design and Implementation</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">📚</div>
+                    <div class="education-content">
+                        <span class="education-date">2022</span>
+                        <h3 class="education-degree">Foundation Certificate in Higher Education</h3>
+                        <h4 class="education-institution">Informatics Institute of Technology</h4>
+                        <p class="education-description">Built a strong academic base in programming, IT, mathematics, and data handling, laying the groundwork for advanced study in computer science and cybersecurity.</p>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="education-icon">🏫</div>
+                    <div class="education-content">
+                        <span class="education-date">2010 - 2021</span>
+                        <h3 class="education-degree">GCE Ordinary Levels</h3>
+                        <h4 class="education-institution">Amal International School</h4>
+                        <p class="education-description">Achieved strong results across core academic subjects, languages, and technology, with top grades in English (A), Mathematics (A), Islam (A), and Literature (A). Demonstrated early aptitude in Business (B) and ICT (B).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="github-section" id="github">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Open Source</span>
+                <h2 class="section-title">GitHub Activity</h2>
+            </div>
+
+            <div class="github-stats-grid">
+                <div class="github-stat-card">
+                    <img src="https://github-readme-stats.vercel.app/api?username=ZubairMurshid&show_icons=true&theme=dark&bg_color=0D1117&title_color=0EA5E9&text_color=ffffff&icon_color=0EA5E9&border_color=1E3A8A&hide_border=true" alt="GitHub Stats">
+                </div>
+                <div class="github-stat-card">
+                    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ZubairMurshid&theme=dark&background=0D1117&ring=0EA5E9&fire=0EA5E9&currStreakLabel=0EA5E9&border=1E3A8A&hide_border=true" alt="GitHub Streak">
+                </div>
+            </div>
+
+            <div class="github-note">
+                <p>Replace ZubairMurshid with your actual GitHub username to display live stats</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Insights</span>
+                <h2 class="section-title">Blog & Writings</h2>
+            </div>
+
+            <div class="blog-grid">
+                <div class="blog-card placeholder">
+                    <div class="blog-image">
+                        <div class="blog-placeholder-icon">📝</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Coming Soon</span>
+                        <h3 class="blog-title">Exploring AI in Event Management</h3>
+                        <p class="blog-excerpt">Deep dive into how artificial intelligence is transforming event planning and management systems...</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">Upcoming</span>
+                            <span class="blog-read-time">5 min read</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-card placeholder">
+                    <div class="blog-image">
+                        <div class="blog-placeholder-icon">🔒</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Coming Soon</span>
+                        <h3 class="blog-title">Cybersecurity Best Practices for Developers</h3>
+                        <p class="blog-excerpt">Essential security principles every developer should implement in their applications...</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">Upcoming</span>
+                            <span class="blog-read-time">8 min read</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="blog-card placeholder">
+                    <div class="blog-image">
+                        <div class="blog-placeholder-icon">💡</div>
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Coming Soon</span>
+                        <h3 class="blog-title">From Student to Developer: My Journey</h3>
+                        <p class="blog-excerpt">Lessons learned, challenges overcome, and insights gained during my computer science journey...</p>
+                        <div class="blog-meta">
+                            <span class="blog-date">Upcoming</span>
+                            <span class="blog-read-time">6 min read</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3 class="contact-heading">Let's Connect</h3>
+                    <p class="contact-text">I'm always open to discussing new opportunities, collaborations, or just having a chat about technology and innovation.</p>
+
+                    <div class="contact-methods">
+                        <a href="mailto:zubairmurshid@icloud.com" class="contact-method">
+                            <div class="method-icon">✉️</div>
+                            <div class="method-content">
+                                <span class="method-label">Email</span>
+                                <span class="method-value">zubairmurshid@icloud.com</span>
+                            </div>
+                        </a>
+
+                        <a href="tel:+94764130494" class="contact-method">
+                            <div class="method-icon">📱</div>
+                            <div class="method-content">
+                                <span class="method-label">Phone</span>
+                                <span class="method-value">+94 76 413 0494</span>
+                            </div>
+                        </a>
+
+                        <div class="contact-method">
+                            <div class="method-icon">📍</div>
+                            <div class="method-content">
+                                <span class="method-label">Location</span>
+                                <span class="method-value">Dehiwela, Sri Lanka</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-button">
+                        <span class="button-text">Send Message</span>
+                        <span class="button-icon">→</span>
+                    </button>
+
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3>ZUBAIR MURSHID</h3>
+                    <p>Computer Science Undergraduate</p>
+                </div>
+                <a href="#" class="cv-download-button" download>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                        <polyline points="7 10 12 15 17 10"/>
+                        <line x1="12" y1="15" x2="12" y2="3"/>
+                    </svg>
+                    Download CV
+                </a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Zubair Murshid. Built with passion and code.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
