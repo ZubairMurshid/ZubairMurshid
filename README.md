@@ -13,7 +13,6 @@
 - 🌱 **I’m currently learning** advanced cloud computing infrastructure (AWS) and modern containerization (Docker).
 - 👯 **I’m looking to collaborate on** open-source full-stack web applications and AI-driven microservices.
 - 🤔 **I’m looking for help with** best practices for scalable cloud deployments and DevOps pipelines.
-- 💬 **Ask me about** Object-Oriented Programming (Java/Python), React state management, and building predictive machine learning models.
 - 📫 **How to reach me:** You can email me at [zubairmurshid@icloud.com](mailto:zubairmurshid@icloud.com), connect with me on [LinkedIn](https://linkedin.com/in/itszubairmurshid), or check out my [Portfolio](https://www.zubairmurshid.dev).
 - ⚡ **Fun fact:** When I'm not writing code, I love going down massive research rabbit holes learning about everything from the Amazon rainforest and Antarctica to Russian history and Mount Everest!
 
