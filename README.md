@@ -1,38 +1,60 @@
 # Hi there, I'm Zubair Murshid 👋
 
 <div align="center">
-  <h3>Full-Stack Software Engineer | AI Integration | CS Undergraduate</h3>
-  <p>I architect scalable client-server systems and build predictive machine learning pipelines. From robust Java and Python backends to dynamic React frontends, I write clean, object-oriented code to deliver complete software solutions.</p>
+  <h3>AI Engineer | ML Pipelines | Full-Stack Software Engineer</h3>
+  <p>I am a passionate Computer Science undergraduate with a strong foundation in Python and AI model development. I specialize in engineering predictive AI microservices and building end-to-end data pipelines. With experience in both full-stack development and predictive AI, I am enthusiastic about transitioning deeper into Generative AI, LLMs, and Agentic workflows.</p>
 </div>
 
 <br />
 
 ## 👨‍💻 About Me
 
-- 🔭 **I’m currently working on** [EventLK](https://www.eventlk.com), an AI-powered university event management platform featuring predictive analytics and intelligent budget planning.
-- 🌱 **I’m currently learning** advanced cloud computing infrastructure (AWS) and modern containerization (Docker).
-- 👯 **I’m looking to collaborate on** open-source full-stack web applications and AI-driven microservices.
-- 🤔 **I’m looking for help with** best practices for scalable cloud deployments and DevOps pipelines.
+### 🔭 Current Work
+- **EventLK** – AI-powered university event management platform.
+- Built **predictive AI microservices** with FastAPI & Scikit-Learn.
+- Implemented **Random Forest models** for automated decision-making and budget allocation.
+- Exploring **Whisper-based transcription** for specialized audio processing.
+
+### 🌱 Learning & Growth
+- Expanding expertise in **Generative AI**.
+- Applying ML to **robotics, autonomous systems, and sensor integration**.
+- Exploring **LLM deployment** and **agentic workflows** in scalable cloud environments.
+
+### 👯 Collaboration
+- Open to **open-source ML projects**, **AI-driven microservices**, and **end-to-end predictive data pipelines**.
+- Interested in connecting with **AI researchers and software engineers** for innovative projects.
+
+### ⚡ Fun Fact
+- I go down massive **research rabbit holes** learning about:
+  - Amazon Rainforest 🌳
+  - Antarctica ❄️
+  - Russian history 🏰
+  - Mount Everest 🗻
+  
 - 📫 **How to reach me:** You can email me at [zubairmurshid@icloud.com](mailto:zubairmurshid@icloud.com), connect with me on [LinkedIn](https://linkedin.com/in/itszubairmurshid), or check out my [Portfolio](https://www.zubairmurshid.dev).
-- ⚡ **Fun fact:** When I'm not writing code, I love going down massive research rabbit holes learning about everything from the Amazon rainforest and Antarctica to Russian history and Mount Everest!
 
 <br />
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Tools
 
 <div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,js,python,react,html,css,tailwind,mysql,git,postman,github,vscode,idea" alt="Core Stack" />
-  </a>
+  <p><strong>🧠 AI & Data Engineering</strong></p>
+  <img src="https://skillicons.dev/icons?i=python,fastapi,scikitlearn,pandas,pydantic" alt="AI Stack" />
+  <p><em>Python, Scikit-Learn, Pandas, Pydantic, FastAPI, Random Forest Models</em></p>
 
   <br />
+
+  <p><strong>💻 Full-Stack Architecture</strong></p>
+  <img src="https://skillicons.dev/icons?i=java,nodejs,express,react,ts,tailwind,postgres" alt="Full-Stack Stack" />
+  <p><em>Java, MVC, Node.js, Express, React 18, TypeScript, PostgreSQL</em></p>
+
   <br />
 
-  <p><strong>🚀 Currently Learning</strong></p>
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=nextjs,nodejs,postgres,aws,docker" alt="Learning Stack" />
-  </a>
+  <p><strong>🚀 DevOps & Cloud (Currently Learning)</strong></p>
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,docker,aws" alt="DevOps Stack" />
+  <p><em>Git, GitHub Actions (CI/CD), Docker, AWS</em></p>
 </div>
+
 <br />
 
 ## 📈 GitHub Stats
